@@ -1,0 +1,15 @@
+F:\Project in Span\project4\BookDetailS.Entity\bin\Debug\net5.0\BookDetailS.Entity.deps.json
+F:\Project in Span\project4\BookDetailS.Entity\bin\Debug\net5.0\BookDetailS.Entity.runtimeconfig.json
+F:\Project in Span\project4\BookDetailS.Entity\bin\Debug\net5.0\BookDetailS.Entity.runtimeconfig.dev.json
+F:\Project in Span\project4\BookDetailS.Entity\bin\Debug\net5.0\BookDetailS.Entity.dll
+F:\Project in Span\project4\BookDetailS.Entity\bin\Debug\net5.0\ref\BookDetailS.Entity.dll
+F:\Project in Span\project4\BookDetailS.Entity\bin\Debug\net5.0\BookDetailS.Entity.pdb
+F:\Project in Span\project4\BookDetailS.Entity\obj\Debug\net5.0\BookDetailS.Entity.csprojAssemblyReference.cache
+F:\Project in Span\project4\BookDetailS.Entity\obj\Debug\net5.0\BookDetailS.Entity.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project in Span\project4\BookDetailS.Entity\obj\Debug\net5.0\BookDetailS.Entity.AssemblyInfoInputs.cache
+F:\Project in Span\project4\BookDetailS.Entity\obj\Debug\net5.0\BookDetailS.Entity.AssemblyInfo.cs
+F:\Project in Span\project4\BookDetailS.Entity\obj\Debug\net5.0\BookDetailS.Entity.csproj.CoreCompileInputs.cache
+F:\Project in Span\project4\BookDetailS.Entity\obj\Debug\net5.0\BookDetailS.Entity.dll
+F:\Project in Span\project4\BookDetailS.Entity\obj\Debug\net5.0\ref\BookDetailS.Entity.dll
+F:\Project in Span\project4\BookDetailS.Entity\obj\Debug\net5.0\BookDetailS.Entity.pdb
+F:\Project in Span\project4\BookDetailS.Entity\obj\Debug\net5.0\BookDetailS.Entity.genruntimeconfig.cache

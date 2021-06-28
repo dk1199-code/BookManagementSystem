@@ -1,0 +1,67 @@
+﻿@model IEnumerable<BookDetailS.Core.Model.BookManagementDetails>
+@{
+    ViewBag.Title = "BookList";
+}
+@if (TempData["Alert Maeesage"] != null)
+{
+    <script>
+   alert("@Html.Raw(@TempData["Alert Maeesage"].ToString()) ");
+    </script>
+
+    <script src="~/js/site.js"></script>
+    <script src="~/js/site.js"></script>
+}
+<h2>BookList</h2>
+<button class="btn btn-primary float-right" style="margin-top:15px" onclick="Create()">Create</button>
+<button class="btn btn-danger float-left" style="margin-top:15px" onclick="Logout()">Logout</button>
+<table class="table-bordered table table-hover">
+    <thead>
+        <tr>
+            <th> Title</th>
+            <th> Author</th>
+            <th> Price</th>
+            <th colspan="2">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var items in Model)
+            {
+                <tr>
+                    <td> @items.userTitlE</td>
+                    <td> @items.autherName</td>
+                    <td> @items.userPricE</td>
+                    <td><button class="btn btn-warning design" id="@items.userBookiD" onclick="editPage(this.id)">Edit</button></td>
+                    <td><button class="btn btn-danger design" id="@items.userBookiD" onclick="Delete(this.id)">delete</button></td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<script>
+    function Delete(id) {
+        if (confirm("Are you Sure Delete Your Record ?")) {
+            window.location.href = "@Url.Action("DeleteBook", "Book")?Id=" + id;
+        }
+
+    }
+    function editPage(id) {
+             window.location.href = "@Url.Action("AddBookDetails", "Book")?Id=" + id;
+    }
+    function Create() {
+        window.location.href = "@Url.Action("AddBookDetails", "Book")";
+    }
+
+    function Logout() {
+        window.location.href = "@Url.Action("LoginView", "Book")";
+    }
+
+</script>
+
+
+
+
+
+
+

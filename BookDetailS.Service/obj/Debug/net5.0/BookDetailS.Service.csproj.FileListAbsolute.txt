@@ -1,0 +1,17 @@
+F:\Project in Span\project4\BookDetailS.Service\bin\Debug\net5.0\BookDetailS.Service.deps.json
+F:\Project in Span\project4\BookDetailS.Service\bin\Debug\net5.0\BookDetailS.Service.dll
+F:\Project in Span\project4\BookDetailS.Service\bin\Debug\net5.0\ref\BookDetailS.Service.dll
+F:\Project in Span\project4\BookDetailS.Service\bin\Debug\net5.0\BookDetailS.Service.pdb
+F:\Project in Span\project4\BookDetailS.Service\bin\Debug\net5.0\BookDetailS.Core.dll
+F:\Project in Span\project4\BookDetailS.Service\bin\Debug\net5.0\BookDetailS.Entity.dll
+F:\Project in Span\project4\BookDetailS.Service\bin\Debug\net5.0\BookDetailS.Core.pdb
+F:\Project in Span\project4\BookDetailS.Service\bin\Debug\net5.0\BookDetailS.Entity.pdb
+F:\Project in Span\project4\BookDetailS.Service\obj\Debug\net5.0\BookDetailS.Service.csprojAssemblyReference.cache
+F:\Project in Span\project4\BookDetailS.Service\obj\Debug\net5.0\BookDetailS.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project in Span\project4\BookDetailS.Service\obj\Debug\net5.0\BookDetailS.Service.AssemblyInfoInputs.cache
+F:\Project in Span\project4\BookDetailS.Service\obj\Debug\net5.0\BookDetailS.Service.AssemblyInfo.cs
+F:\Project in Span\project4\BookDetailS.Service\obj\Debug\net5.0\BookDetailS.Service.csproj.CoreCompileInputs.cache
+F:\Project in Span\project4\BookDetailS.Service\obj\Debug\net5.0\BookDetailS.Service.csproj.CopyComplete
+F:\Project in Span\project4\BookDetailS.Service\obj\Debug\net5.0\BookDetailS.Service.dll
+F:\Project in Span\project4\BookDetailS.Service\obj\Debug\net5.0\ref\BookDetailS.Service.dll
+F:\Project in Span\project4\BookDetailS.Service\obj\Debug\net5.0\BookDetailS.Service.pdb

@@ -1,0 +1,100 @@
+﻿@model BookDetailS.Core.Model.BookManagementDetails
+
+<script src="~/js/site.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}
+<h1> Book List</h1>
+<button type="button" class="btn btn-primary float-right" onclick="BackToView()"> Back To View</button>
+@using (Html.BeginForm("BookDetails", "Book", FormMethod.Post, new { @id = "Formdetails" }))
+{
+    @Html.HiddenFor(model => model.userBookiD)
+
+    <div class="form-group">
+        <label>Title</label>
+        <div>
+            @Html.TextBoxFor(model => model.userTitlE, new { @class = "form-control col-md-3", @type = "text", @placeholder = "Title" })
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Author</label>
+        <div>
+            @Html.DropDownListFor(Modal => Modal.userAuthoR, (IEnumerable<SelectListItem>)ViewBag.Author, "---Select Department---", new { @class = "form-control col-md-3" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Price</label>
+        <div>
+            @Html.TextBoxFor(model => model.userPricE, new { @class = "form-control col-md-3", @type = "Number", @placeholder = "Price" })
+        </div>
+    </div>
+    @if (Model != null)
+    {
+        <button type="button" onclick="SubmitDetails()" class="btn btn-success">Update</button>
+
+    }
+    else
+    {
+        <button type="button" onclick="SubmitDetails()" class="btn btn-success">Submit</button>
+
+    }
+    <button type="reset" class="btn btn-danger">Reset</button>
+
+}
+
+<script>
+
+    $(function () {
+
+
+        $("#Formdetails").validate({
+            rules:
+            {
+                userTitlE:
+                {
+                    required: true,
+                },
+                userAuthoR:
+                {
+                    required: true,
+                },
+                userPricE:
+                {
+                    required: true,
+                }
+
+            },
+            messages:
+            {
+                userTitlE:
+                {
+                    required: "Title is Required"
+                },
+                userAuthoR:
+                {
+                    required: "Author is Required"
+                },
+                userPricE:
+                {
+                    required: "Gender is Required"
+                }
+
+
+            }
+        });
+    });
+    function SubmitDetails() {
+        if ($("#Formdetails").valid()) {
+            $("#Formdetails").submit();
+        }
+    }
+
+    function BackToView() {
+        window.location.href = "@Url.Action("ViewBook", "Book")";
+    }
+
+</script>

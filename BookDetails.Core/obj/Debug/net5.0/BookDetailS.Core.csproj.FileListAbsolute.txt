@@ -1,0 +1,15 @@
+F:\Project in Span\project4\BookDetails.Core\bin\Debug\net5.0\BookDetailS.Core.deps.json
+F:\Project in Span\project4\BookDetails.Core\bin\Debug\net5.0\BookDetailS.Core.dll
+F:\Project in Span\project4\BookDetails.Core\bin\Debug\net5.0\ref\BookDetailS.Core.dll
+F:\Project in Span\project4\BookDetails.Core\bin\Debug\net5.0\BookDetailS.Core.pdb
+F:\Project in Span\project4\BookDetails.Core\bin\Debug\net5.0\BookDetailS.Entity.dll
+F:\Project in Span\project4\BookDetails.Core\bin\Debug\net5.0\BookDetailS.Entity.pdb
+F:\Project in Span\project4\BookDetails.Core\obj\Debug\net5.0\BookDetailS.Core.csprojAssemblyReference.cache
+F:\Project in Span\project4\BookDetails.Core\obj\Debug\net5.0\BookDetailS.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project in Span\project4\BookDetails.Core\obj\Debug\net5.0\BookDetailS.Core.AssemblyInfoInputs.cache
+F:\Project in Span\project4\BookDetails.Core\obj\Debug\net5.0\BookDetailS.Core.AssemblyInfo.cs
+F:\Project in Span\project4\BookDetails.Core\obj\Debug\net5.0\BookDetailS.Core.csproj.CoreCompileInputs.cache
+F:\Project in Span\project4\BookDetails.Core\obj\Debug\net5.0\BookDetailS.Core.csproj.CopyComplete
+F:\Project in Span\project4\BookDetails.Core\obj\Debug\net5.0\BookDetailS.Core.dll
+F:\Project in Span\project4\BookDetails.Core\obj\Debug\net5.0\ref\BookDetailS.Core.dll
+F:\Project in Span\project4\BookDetails.Core\obj\Debug\net5.0\BookDetailS.Core.pdb
